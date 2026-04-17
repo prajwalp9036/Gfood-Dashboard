@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GoodFood Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+<h2 class="logo">G GOODFOOD</h2>
+
+<p class="menu-title">MENU</p>
+<ul>
+<li class="active">📊 Dashboard</li>
+<li>🍔 Food Order</li>
+<li>📋 Manage Menu</li>
+<li>⭐ Customer Review</li>
+</ul>
+
+<p class="menu-title">OTHERS</p>
+<ul>
+<li>⚙️ Settings</li>
+<li>💳 Payment</li>
+<li>👤 Accounts</li>
+<li>❓ Help</li>
+</ul>
+</aside>
+
+<!-- MAIN -->
+<main class="main">
+
+<header class="topbar">
+<input type="text" placeholder="Search">
+<div class="profile">
+<img src="burger.jpg">
+<span>Delicious Burger</span>
+</div>
+</header>
+
+<h2 class="title">Dashboard</h2>
+
+<!-- TOP -->
+<div class="grid-2">
+
+<div class="card">
+<div class="card-header">
+<h4>Revenue</h4>
+<button>View Report</button>
+</div>
+
+<h2>IDR 7.852.000</h2>
+<p class="green">↑ 2.1%</p>
+
+<div class="bar-chart">
+<div class="bar-group"><div class="bar-wrapper"><div class="bar blue" style="height:60px"></div><div class="bar gray" style="height:40px"></div></div><span>Mon</span></div>
+<div class="bar-group"><div class="bar-wrapper"><div class="bar blue" style="height:70px"></div><div class="bar gray" style="height:50px"></div></div><span>Tue</span></div>
+<div class="bar-group"><div class="bar-wrapper"><div class="bar blue" style="height:30px"></div><div class="bar gray" style="height:45px"></div></div><span>Wed</span></div>
+<div class="bar-group"><div class="bar-wrapper"><div class="bar blue" style="height:80px"></div><div class="bar gray" style="height:60px"></div></div><span>Thu</span></div>
+<div class="bar-group"><div class="bar-wrapper"><div class="bar blue" style="height:50px"></div><div class="bar gray" style="height:35px"></div></div><span>Fri</span></div>
+<div class="bar-group"><div class="bar-wrapper"><div class="bar blue" style="height:65px"></div><div class="bar gray" style="height:45px"></div></div><span>Sat</span></div>
+<div class="bar-group"><div class="bar-wrapper"><div class="bar blue" style="height:75px"></div><div class="bar gray" style="height:55px"></div></div><span>Sun</span></div>
+</div>
+
+<div class="revenue-bottom">
+<label><input type="radio" name="timeframe" checked> Last 6 Days</label>
+<label><input type="radio" name="timeframe"> Last Week</label>
+</div>
+
+</div>
+
+<div class="card">
+<h4>Order Time</h4>
+<div class="circle-donut">
+<div class="inner">1,890<br>orders</div>
+</div>
+</div>
+
+</div>
+
+<!-- BOTTOM -->
+<div class="grid-3">
+
+<!-- RATING -->
+<div class="card">
+<h4>Your Rating</h4>
+
+<div class="rating-layout">
+<div class="circle orange">85%<span>Taste</span></div>
+<div class="circle purple">45%<span>Hygiene</span></div>
+<div class="circle blue2">50%<span>Packaging</span></div>
+</div>
+
+</div>
+
+<!-- FOOD -->
+<div class="card">
+<h4>Most Ordered</h4>
+
+<ul class="food-list">
+<li><span><img class="order-logo" src="salad.jpg">Fresh Salad Bowl</span><span>IDR 45.000</span></li>
+<li><span><img class="order-logo" src="chickennoddle.jpg">Chicken Noodles</span><span>IDR 75.000</span></li>
+<li><span><img class="order-logo" src="smoothie.jpg">Smoothie Fruits</span><span>IDR 45.000</span></li>
+<li><span><img class="order-logo" src="chiken wingsjpg.jpg">Hot Chicken Wings</span><span>IDR 45.000</span></li>
+</ul>
+
+</div>
+
+<!-- ORDERS -->
+<div class="card">
+<h4>Orders</h4>
+<h2>2,568</h2>
+<p class="red">↓ 2.1%</p>
+
+<svg class="graph" height="100">
+<polyline points="0,80 40,60 80,70 120,40 160,50 200,20 240,40"
+fill="none" stroke="#4a90e2" stroke-width="3"/>
+</svg>
+
+</div>
+
+</div>
+
+</main>
+</div>
+
+</body>
+</html>
